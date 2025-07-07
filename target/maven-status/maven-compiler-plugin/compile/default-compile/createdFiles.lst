@@ -1,0 +1,12 @@
+com\example\springbootapp1\entity\Course.class
+com\example\springbootapp1\service\CourseService.class
+com\example\springbootapp1\service\StudentService.class
+com\example\springbootapp1\dto\StudentRequest.class
+com\example\springbootapp1\controller\CourseController.class
+com\example\springbootapp1\dto\RegisterCoursesRequest.class
+com\example\springbootapp1\repository\CourseRepository.class
+com\example\springbootapp1\controller\StudentController.class
+com\example\springbootapp1\entity\Student.class
+com\example\springbootapp1\repository\StudentRepository.class
+com\example\springbootapp1\SpringbootApp1Application.class
+com\example\springbootapp1\dto\CourseRequest.class

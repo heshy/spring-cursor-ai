@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.example.springbootapp1.controller.StudentControllerTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.152 s <<< FAILURE! -- in com.example.springbootapp1.controller.StudentControllerTest
+com.example.springbootapp1.controller.StudentControllerTest.testAddStudent_ValidationError_EmptyTown -- Time elapsed: 0.055 s <<< FAILURE!
+java.lang.AssertionError: JSON path "$.town" expected:<Town is required > but was:<Town is required>
+	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:59)
+	at org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:122)
+	at org.springframework.test.util.JsonPathExpectationsHelper.assertValue(JsonPathExpectationsHelper.java:123)
+	at org.springframework.test.web.servlet.result.JsonPathResultMatchers.lambda$value$2(JsonPathResultMatchers.java:111)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:214)
+	at com.example.springbootapp1.controller.StudentControllerTest.testAddStudent_ValidationError_EmptyTown(StudentControllerTest.java:106)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
